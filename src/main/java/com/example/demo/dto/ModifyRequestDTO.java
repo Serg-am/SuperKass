@@ -1,9 +1,9 @@
-package com.example.demo.controller;
+package com.example.demo.dto;
 
 import lombok.Data;
 
 @Data
-public class ModifyRequest {
+public class ModifyRequestDTO {
     private Long id;
     private Integer add;
 }
